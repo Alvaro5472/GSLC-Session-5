@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,10 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('main');
-});
-
-Route::fallback(function(){
-    return view('notFound');
-});
+Route::get('/', [PageController::class, 'index']);
+Route::fallback([PageController::class, 'notFound']);
