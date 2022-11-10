@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/main.css">
 <body style="background-color: rgb(230, 230, 230);">
     <div class="title">
-        <h1>{{$title}}</h1>
+        <h1>{{$header_title}}</h1>
     </div>
     @for ($i=0; $i < 5; $i++)
     <div class="card text-center" style="width: 18rem; margin: 10px;">
