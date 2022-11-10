@@ -1,6 +1,5 @@
 @extends('layout.navbar')
 
-@section('main-content')
 <link rel="stylesheet" href="css/main.css">
 <body style="background-color: rgb(230, 230, 230);">
     <div class="title">
@@ -16,4 +15,3 @@
     </div>
     @endfor
 </body>
-@endsection

@@ -5,7 +5,7 @@ class PageController extends Controller{
         $image = asset('img/Angry Birds Realistic.jpg');
         $title = "Home";
         $header_title = "Looping of An Angry Green Bird";
-        return view('mainContent.results', compact('image', 'title', 'header_title'));
+        return view('mainContent.input', compact('image', 'title', 'header_title'));
     }
 
     public function notFound(){
