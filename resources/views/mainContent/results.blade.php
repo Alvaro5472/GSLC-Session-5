@@ -1,6 +1,6 @@
 @extends('layout.navbar')
-
-<link rel="stylesheet" href="css/main.css">
+{{-- @section('main-content') --}}
+<link rel="stylesheet" href="css/results.css">
 <body style="background-color: rgb(230, 230, 230);">
     <div class="title">
         <h1>{{$header_title}}</h1>
@@ -15,3 +15,4 @@
     </div>
     @endfor
 </body>
+{{-- @endsection --}}

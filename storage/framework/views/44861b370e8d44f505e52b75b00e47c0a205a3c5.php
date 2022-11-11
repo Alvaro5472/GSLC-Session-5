@@ -15,5 +15,4 @@
     <?php endfor; ?>
 </body>
 <?php $__env->stopSection(); ?>
-
 <?php echo $__env->make('layout.navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\GSLC-Session-6-main\resources\views/mainContent/results.blade.php ENDPATH**/ ?>
